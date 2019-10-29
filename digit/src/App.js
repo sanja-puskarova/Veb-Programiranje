@@ -1,17 +1,23 @@
 import React from 'react';
 import logo from './logo.svg';
 
-import CarouselSection from './components/CarouselSection/CarouselSection'
-import MenuSection from './components/MenuSection/MenuSection'
-import './App.css';
 
+import Adopt from "./pages/Adopt";
+import HomePage from "./pages/HomePage";
+import './App.css';
+import { BrowserRouter as Switch} from "react-router-dom";
+import {Route} from 'react-router';
 function App() {
   return (
     <div className="App">
-        <MenuSection/>
-
-        <CarouselSection/>
-
+        <Switch>
+            <Route exact path="/">
+                <HomePage/>
+            </Route>
+            <Route exact path="/adopt">
+                <Adopt/>
+            </Route>
+        </Switch>
     </div>
   );
 }

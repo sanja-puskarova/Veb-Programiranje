@@ -8,16 +8,17 @@
 
 .li-menu {
     float: right;
-}
-
-.li-menu a {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
-
-.floatLeft{
+.li-name{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
     float: left;
 }

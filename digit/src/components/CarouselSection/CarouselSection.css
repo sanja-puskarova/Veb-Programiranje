@@ -8,3 +8,10 @@
 .thumbs{
     display:none;
 }
+.background{
+   background-color: #282c34;
+}
+#text{
+    color: whitesmoke;
+    font-family:"Comic Sans MS";
+}
