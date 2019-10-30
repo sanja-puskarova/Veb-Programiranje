@@ -33,7 +33,7 @@ export default function CarouselSection() {
             <br/>
             <div>
 
-             <iframe width={1350} height={500} frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d47436.84774319002!2d21.43497444444406!3d42.004503600184286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sanimal%20shelter!5e0!3m2!1sen!2smk!4v1572340540898!5m2!1sen!2smk"></iframe>
+             <iframe className="map-section" width={600} height={450} frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d47436.84774319002!2d21.43497444444406!3d42.004503600184286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sanimal%20shelter!5e0!3m2!1sen!2smk!4v1572340540898!5m2!1sen!2smk"></iframe>
             </div>
 
 

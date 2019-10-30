@@ -13,12 +13,10 @@ export default function MenuSection() {
 
         <ul className="ul-menu">
             <Animated animationIn="bounceInLeft" animationInDuration={1000} animationOutDuration={1000} isVisible={true}>
-
-                <Link to={"/"} className="li-name"><FontAwesomeIcon icon={faPaw}/>ShelterMe</Link>
-                <Link to={"/about"} className="li-menu"><FontAwesomeIcon icon={faInfoCircle}/>About</Link>
-                <Link to={"/adopt"} className="li-menu"><FontAwesomeIcon icon={faHandHoldingHeart}/>Adopt</Link>
-                <Link to={"/statistic"} className="li-menu"><FontAwesomeIcon icon={faChartBar}/>Statistic</Link>
-
+                <Link to={"/"} className="li-name li-menu"><FontAwesomeIcon icon={faPaw}/> ShelterMe</Link>
+                <Link to={"/about"} className="li-about"><FontAwesomeIcon icon={faInfoCircle}/> About</Link>
+                <Link to={"/adopt"} className="li-menu"><FontAwesomeIcon icon={faHandHoldingHeart}/> Adopt</Link>
+                <Link to={"/statistic"} className="li-menu"><FontAwesomeIcon icon={faChartBar}/> Statistic</Link>
             </Animated>
         </ul>
         </div>

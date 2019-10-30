@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+
+.cardWidth{
+    width: 270px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.25), 0 10px 5px rgba(0,0,0,0.45);
+    z-index:1;
+    font-family: Caveat;
+}
+.divAdopt{
+    padding-left: 10%;
+    padding-right: 9%;
+    padding-top: 5%;
+}
+.rowAdopt{
+    width: 200px;
+}
+.colAdopt{
+    width: 80%;
+}
+
+.card-ul{
+    margin-left: auto;
+    margin-right: auto;
+    list-style-type: none;
+    text-align: left;
+    font-size: 20px;
+}
+.card-body{
+    padding:5px;
+
+}

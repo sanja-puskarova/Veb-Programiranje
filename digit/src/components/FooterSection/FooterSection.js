@@ -19,7 +19,7 @@ export default function FooterSection(){
                         You can donate a meal for this little fellas just by clicking this button.
 
                         <br/>
-                        <button className='button mt-5 foo-button '>Donate</button>
+                        <button className='button mt-1 foo-button '>Donate</button>
                     </div>
 
                     <div className='f-col customText'>Feel free to contact us anytime!<br/>

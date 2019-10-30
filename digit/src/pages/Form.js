@@ -1,12 +1,9 @@
 import React, { Component } from 'react';
-
-import MenuSection from '../components/MenuSection/MenuSection'
-import FormPerson from '../components/FormPerson/FormPerson'
+import FormSection from '../components/FormSection/FormSection'
 export default function Form() {
     return(
         <div>
-            <MenuSection/>
-            <FormPerson/>
+           <FormSection/>
 
         </div>
     );

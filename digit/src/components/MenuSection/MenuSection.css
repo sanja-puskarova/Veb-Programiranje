@@ -4,6 +4,10 @@
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    text-decoration: none;
+    position: sticky; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
 }
 
 .li-menu {
@@ -14,6 +18,42 @@
     padding: 14px 16px;
     text-decoration: none;
 }
+.li-about {
+     float: right;
+     display: block;
+     color: white;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+ }
+
+.li-menu:nth-child(1)
+{
+    margin-left: 12%;
+    font-size: 20px;
+}
+.li-menu:nth-child(2){
+      margin-right: 12%;
+      padding-top: 10px;
+  }
+
+
+.li-menu:hover {
+    color: #004e64;
+    text-decoration: none;
+}
+.li-about:hover {
+    color: #004e64;
+    text-decoration: none;
+}
+.li-about{
+    margin-right: 12%;
+    padding-top: 15px;
+}
+
+Link {
+    text-decoration: none;
+}
 .li-name{
     display: block;
     color: white;
@@ -22,3 +62,4 @@
     text-decoration: none;
     float: left;
 }
+

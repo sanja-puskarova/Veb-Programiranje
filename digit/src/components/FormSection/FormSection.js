@@ -6,7 +6,7 @@ import { Button } from 'react-bootstrap';
 import { Col } from 'react-bootstrap';
 
 import MenuSection from '../MenuSection/MenuSection'
-import './FileCss.css';
+import './FormSection.css';
 
 export default function FormPerson() {
     return(

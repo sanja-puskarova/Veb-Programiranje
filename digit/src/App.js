@@ -3,6 +3,7 @@ import Adopt from "./pages/Adopt";
 import About from "./pages/About";
 import Statistic from "./pages/Statistic";
 import HomePage from "./pages/HomePage";
+import Form from "./pages/Form";
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Switch} from "react-router-dom";
@@ -22,6 +23,9 @@ function App() {
             </Route>
             <Route exact path="/statistic">
                 <Statistic/>
+            </Route>
+            <Route exact path="/form">
+                <Form/>
             </Route>
         </Switch>
     </div>

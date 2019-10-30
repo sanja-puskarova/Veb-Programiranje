@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import AdoptCards from '../components/AdoptCards/AdoptCards'
+import AdoptSection from '../components/AdoptSection/AdoptSection'
 import MenuSection from '../components/MenuSection/MenuSection'
 export default function Adopt() {
     return(
         <div>
             <MenuSection/>
-            <AdoptCards/>
+            <AdoptSection/>
         </div>
     );
 }
