@@ -1,0 +1,82 @@
+.f-row {
+    background: #333333;
+    font-size: 18px;
+    color: antiquewhite;
+}
+
+.f-col {
+    width: 400px;
+    display: inline-block;
+    padding: 12px 40px 10px 40px;
+}
+
+.CopyRight {
+    align-content: center;
+    color: white;
+    background: black;
+    padding: 12px;
+}
+
+.foo-button {
+    border: 1px solid #004e64;
+    border-radius: 25px;
+    color: #004e64;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0;
+    padding: 7px 20px;
+    text-transform: uppercase;
+    margin-top:1px;
+
+}
+
+.foo-button:hover {
+    background: #004e64;
+    color: white;
+    text-decoration: none;
+}
+
+.f-ul {
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.f-li{
+    padding-bottom: 3px;
+}
+
+.social-container {
+    background: #eee;
+    padding-bottom: 10px;
+}
+
+.customText{
+    padding-top: 10px;
+}
+a.social {
+
+    margin: 5%;
+    transition: transform 400ms;
+    display: inline-block;
+}
+
+a.social:hover {
+    transform: translateY(-8px);
+}
+
+a.youtube {
+    color: #eb3223;
+}
+
+a.facebook {
+    color: #4968ad;
+}
+
+a.twitter {
+    color: #49a1eb;
+}
+
+a.instagram {
+    color: deeppink;
+}

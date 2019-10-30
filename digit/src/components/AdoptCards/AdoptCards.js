@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
-
 import {Animated} from "react-animated-css";
+import { Button } from 'react-bootstrap';
 
-import { BrowserRouter as Router,Link} from "react-router-dom";
 export default function AdoptCards() {
     return (
         <div>
-            OKEEJ
+            <Button
+            onClick="{}">
+                Add
+            </Button>
         </div>
     );
 }

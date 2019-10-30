@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
-import AdoptCards from '../components/AdoptCards/AdoptCards'
+
 import MenuSection from '../components/MenuSection/MenuSection'
-export default function Adopt() {
+import FormPerson from '../components/FormPerson/FormPerson'
+export default function Form() {
     return(
         <div>
             <MenuSection/>
-            <AdoptCards/>
+            <FormPerson/>
+
         </div>
     );
 }
