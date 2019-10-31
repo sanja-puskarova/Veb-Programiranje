@@ -1,60 +1,37 @@
-import React, { Component } from 'react';
-import {Animated} from "react-animated-css";
-import { Row } from 'react-bootstrap';
-import { Form } from 'react-bootstrap';
-import { Button } from 'react-bootstrap';
-import { Col } from 'react-bootstrap';
+import React from 'react'
+import Row from "react-bootstrap/Row";
+import  faPaw from '@fortawesome/react-fontawesome'
 
-import MenuSection from '../components/MenuSection/MenuSection'
-import '../components/FormSection/FormSection.css';
+import {Col} from "react-bootstrap";
 
-export default function FormPerson() {
+export default function About() {
     return(
-        <div className="div-form">
-            <MenuSection/>
-            <br/>
-            <h1 className="tellusmore">Tell us more about yourself!</h1>
-            <br/>
-
+        <div>
             <Row>
-                <Col md={4}>
+                <Col className={Col}>
+                    <h2>Who are we?</h2>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
                 </Col>
-                <Col md={4}>
-                    <Form className="form">
-                        <Form.Group>
-                            <Form.Label>First Name</Form.Label>
-                            <Form.Control type="text" placeholder="First Name" />
-                        </Form.Group>
-                        <Form.Group >
-                            <Form.Label>Last Name</Form.Label>
-                            <Form.Control type="text" placeholder="Last Name" />
-                        </Form.Group>
-                        <Form.Group controlId="formBasicEmail">
-                            <Form.Label>Email address</Form.Label>
-                            <Form.Control type="email" placeholder="Enter email" />
-                            <Form.Text className="text-muted">
-                                We'll never share your email with anyone else.
-                            </Form.Text>
-                        </Form.Group>
-                        <Form.Group >
-                            <Form.Label>Age</Form.Label>
-                            <Form.Control type="text" placeholder="Years" />
-                        </Form.Group>
-                        <Form.Group >
-                            <Form.Label>Phone Number</Form.Label>
-                            <Form.Control type="text" placeholder="Phone" />
-                        </Form.Group>
-
-                        <Button variant="info" type="submit">
-                            Submit
-                        </Button>
-                    </Form>
+                <Col>
+                    <img src='https://www.tinytailsk-9rescue.com/uploads/8/6/0/5/8605722/5333509.jpg'/>
                 </Col>
-                <Col md={4}>
-
+                <Col>
+                    <ul>
+                        <li>
+                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,
+                            by injected humour, or randomised words which don't look even slightly believable
+                        </li>
+                        <li>
+                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,
+                            by injected humour, or randomised words which don't look even slightly believable
+                        </li>
+                        <li>
+                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,
+                            by injected humour, or randomised words which don't look even slightly believable
+                        </li>
+                    </ul>
                 </Col>
             </Row>
-            <br/>
         </div>
     );
 }
