@@ -1,15 +1,16 @@
 import React from 'react'
 import MenuSection from '../components/MenuSection/MenuSection';
 import FooterSection from '../components/FooterSection/FooterSection';
-import AboutSection from '../components/AboutSection/AboutSection';
+import DonateSection from '../components/DonateSection/DonateSection';
 
 
 
-export default function About() {
+export default function Donate() {
     return(
         <div>
-            <MenuSection/>
-            <AboutSection/>
+
+           <DonateSection/>
+
             <FooterSection/>
 
         </div>

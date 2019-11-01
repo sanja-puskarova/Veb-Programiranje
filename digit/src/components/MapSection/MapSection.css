@@ -1,0 +1,16 @@
+.map-section{
+    float:left;
+    border:groove;
+    border-radius: 5%;
+    margin-left: 165px;
+    margin-right: 50px;
+}
+.div-map{
+    color:#004e64;
+    font-size: 20px;
+    text-align: justify;
+    padding-right: 170px;
+    padding-top: 20px;
+    font-family:"Comic Sans MS";
+
+}

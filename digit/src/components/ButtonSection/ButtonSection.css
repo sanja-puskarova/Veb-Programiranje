@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
 .btn-section {
 
     border: 1px solid #004e64;
@@ -9,7 +11,7 @@
     padding: 7px 20px;
     text-transform: uppercase;
     text-align: center;
-
+    font-family: Caveat;
 
     width: 200px;
     transition: all 0.5s;

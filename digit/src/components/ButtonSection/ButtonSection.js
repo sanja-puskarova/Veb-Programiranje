@@ -8,8 +8,13 @@ export default function ButtonSection() {
     }
 
     return (
+        <div>
         <button className="btn-section" onClick={Adopt}>
-            <span>Adopt! </span>
+            <span>Вдоми! </span>
         </button>
+            <br/>
+            <br/>
+            <br/>
+        </div>
     );
 }

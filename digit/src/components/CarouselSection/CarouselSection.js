@@ -1,40 +1,68 @@
 import React from "react";
 import './CarouselSection.css';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import { Carousel } from 'react-responsive-carousel';
-import {Animated} from "react-animated-css";
+import { Carousel } from 'react-bootstrap';
+import { Animated } from "react-animated-css";
 
-import { Card } from 'react-bootstrap';
 export default function CarouselSection() {
     return(
         <div className="background">
+            <div>
+                <Carousel>
+                    <Carousel.Item>
+                        <img
+                            className="d-block w-100 carousel-img"
+                            src="https://images.pexels.com/photos/1904105/pexels-photo-1904105.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
 
-            <Carousel >
-                <div>
-                    <img className="carousel-img" src="https://images.pexels.com/photos/1254140/pexels-photo-1254140.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=500&w=940"/>
-                    <p className="legend">Legend 1</p>
-                </div>
+                            alt="First slide"
+                        />
+                        <Carousel.Caption className="text-carousel">
+                            <Animated animationIn="lightSpeedIn" animationInDuration={1600} isVisible={true}>
+                            <h5 className="text-car">“Вдомување на едно куче нема да го промени светот,но со сигурност светот на тоа едно куче ке биде променет засекогаш!”
+                                ― Karen Davison</h5>
+                            </Animated>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img
+                            className="d-block w-100 carousel-img"
+                            src="https://images.pexels.com/photos/1750378/pexels-photo-1750378.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                            alt="Third slide"
+                        />
 
-                <div>
-                    <img className="carousel-img" src="https://images.pexels.com/photos/672244/pexels-photo-672244.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" />
-                    <p className="legend">Legend 1</p>
-                </div>
+                        <Carousel.Caption>
+                            <Animated animationIn="lightSpeedIn" animationInDuration={1600} isVisible={true}>
+                            <h5 className="text-car">"Кучињата, од причина што може да се опише само како божествена, имаат можност да простат,
+                                да заборават на минатото и да го живеат секој ден радосно.
+                                Тоа е нешто за кое што се стремиме сите ние.“ -Jennifer Skiff</h5>
+                            </Animated>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img
+                            className="d-block w-100 carousel-img"
+                            src="https://iheartdogs.com/wp-content/uploads/2017/06/shutterstock_470866751-e1498863918253.jpg    "
+                            alt="Third slide"
+                        />
+                        <Carousel.Caption>
+                            <Animated animationIn="lightSpeedIn" animationInDuration={1600} isVisible={true}>
+                            <h5 className="text-car">
+                                "Кучето не е предмет. Предметот може да се замени. Кучето не. Предметот е за еднократна употреба. Кучето не. Предметот нема срце.
+                                Срцето на кучето е поголемо од кој било предмет што некогаш може да го поседувате" -Elizabeth Parker</h5>
+                            </Animated>
 
-                <div>
-                    <img className="carousel-img" src="https://images.pexels.com/photos/1750378/pexels-photo-1750378.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" />
-                    <p className="legend">Legend 2</p>
-                </div>
-            </Carousel>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                </Carousel>
+            </div>
+            <br/><br/>
             <Animated animationIn="wobble" animationOut="zoomOutDown" animationInDuration={1000} animationOutDuration={1000} isVisible={true}>
             <h2 id="text">
-                WHERE TO FIND HELP
+              На кого можете да помогнете?
             </h2>
             </Animated>
-            <br/>
-            <div>
 
-             <iframe className="map-section" width={600} height={450} frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d47436.84774319002!2d21.43497444444406!3d42.004503600184286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sanimal%20shelter!5e0!3m2!1sen!2smk!4v1572340540898!5m2!1sen!2smk"></iframe>
-            </div>
+
 
 
         </div>

@@ -1,62 +1,95 @@
 @import url('https://fonts.googleapis.com/css?family=Caveat&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+
 .card-deck1{
-    background: #aa4b6b;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-    padding-left:6%;
-    padding-top: 5%;
-
-    padding-bottom: 5%;
+    background-image: radial-gradient(circle, #eff2f6, #d2dee3, #b7cbca, #a4b7ab, #9aa18c);
+    padding: 4% 11%;
+}
+.card-body{
+    padding: 0 !important;
 }
 .cardWidth{
-    width: 320px;
+    width: 300px;
+    background-color: white;
     box-shadow: 0 5px 10px rgba(0,0,0,0.25), 0 10px 5px rgba(0,0,0,0.45);
     z-index:1;
     font-family: Caveat;
     transition: transform .1s;
     margin-bottom: 20px;
-
+    padding: 10px !important;
+    margin-right: 5px;
+    border-color: #2C3E50;
 }
 
 .header-text{
-    padding: 10px;
-    font-family: Caveat;
-    color: #333333;
-    font-weight: bold;
-    font-size: 30px;
-}
-.foo-button {
-    border: 1px solid #004e64;
-    border-radius: 25px;
+    padding-bottom: 35px;
+    font-family: "Comic Sans MS";
     color: #004e64;
+    font-weight: bold;
+    font-size: 34px;
+    margin-top: 10px;
+}
+
+.foo-button {
+    border: 1px solid #004e64 !important;
+    border-radius: 25px !important;
+    color: white!important;
     display: inline-block;
-    font-size: 14px;
+    font-size: 14px!important;
     font-weight: 700;
     letter-spacing: 0;
     padding: 7px 20px;
     text-transform: uppercase;
     font-family: "Indie Flower";
+    background-color: #004e64 !important;
+}
+.button-no {
+    border: 1px solid #004e64 !important;
+    border-radius: 25px !important;
+    color: #004e64!important;
+    display: inline-block;
+    font-size: 14px!important;
+    font-weight: 700;
+    letter-spacing: 0;
+    padding: 7px 20px;
+    text-transform: uppercase;
+    font-family: "Comic Sans MS";
+    background-color: white !important;
+}
+
+.button-ok{
+    border: 1px solid #004e64 !important;
+    border-radius: 25px !important;
+    color: white!important;
+    display: inline-block;
+    font-size: 14px!important;
+    font-weight: 700;
+    letter-spacing: 0;
+    padding: 7px 20px;
+    text-transform: uppercase;
+    font-family: "Comic Sans MS";
+    background-color: #004e64 !important;
 }
 
 .paginationA{
-    padding-top: 60px;
-    padding-left: 12px;
+    padding-top: 50px;
+    padding-left: 38%;
 }
 
 .foo-button:hover {
-    background: #004e64;
-    color: white;
+    background: white !important;
+    color: #004e64 !important;
     text-decoration: none;
 }
 
 .cardWidth:hover{
     transform: scale(1.01);
+
 }
-.row{
+. row{
     margin-bottom: 18px;
 }
+
 .divAdopt{
     padding-left: 10%;
     padding-right: 9%;
@@ -83,7 +116,9 @@
     text-align: left;
     font-size: 20px;
 }
-
-Card.Body{
-    padding: 2px;
+.modal-text{
+    font-family: "Comic Sans MS";
+}
+#okk{
+    display: none;
 }

@@ -2,10 +2,12 @@
     background: #333333;
     font-size: 18px;
     color: antiquewhite;
+    font-family:"Comic Sans MS";
 }
 
+
 .f-col {
-    width: 400px;
+    width: 450px;
     display: inline-block;
     padding: 12px 40px 10px 40px;
 }
@@ -27,6 +29,7 @@
     letter-spacing: 0;
     padding: 7px 20px;
     text-transform: uppercase;
+    font-family:"Comic Sans MS";
 
 
 }

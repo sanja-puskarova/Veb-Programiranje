@@ -1,0 +1,54 @@
+.form{
+    box-shadow: 0 5px 10px rgba(0,0,0,0.25),0 10px 5px rgba(0,0,0,0.45);
+    z-index: 1;
+    border-radius: 5%;
+    padding: 15px;
+    font-family:"Ink Free";
+    font-size: 20px;
+    font-weight: bold;
+    color:white;
+}
+.div-form {
+    background: #2C3E50; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4CA1AF, #2C3E50); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4CA1AF, #2C3E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.text-muted{
+    color: white !important;
+}
+.tellusmore{
+    font-family: "Comic Sans MS";
+    color:whitesmoke;
+}
+
+.formText5{
+    text-align: justify;
+    color: white;
+}
+
+.col-forma{
+    padding-top: 50px;
+    padding-left: 50px;
+    margin-left: 100px;
+    color: whitesmoke;
+    text-align: justify;
+}
+
+.btn-submit{
+    width: 150px;
+    border: 1px solid #004e64 !important;
+    border-radius: 25px;
+    color: #004e64 !important;
+    background-color: white !important;
+    font-size: 20px !important;
+    font-weight: bold !important;
+
+}
+#btn-s{
+    margin-left: 32%;
+}
+.btn-submit:hover {
+    background: lightseagreen !important;
+    color: white !important;
+    text-decoration: none;
+}

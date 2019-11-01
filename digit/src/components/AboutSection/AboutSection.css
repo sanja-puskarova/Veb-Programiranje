@@ -1,0 +1,52 @@
+.back-color{
+    background-image: radial-gradient(circle, #eff2f6, #d2dee3, #b7cbca, #a4b7ab, #9aa18c);
+}
+.aboutText{
+    text-align: center;
+}
+.row-about {
+    padding-top: 60px;
+    font-family:"Comic Sans MS";
+    font-size: 18px;
+    color: #004e64;
+}
+
+.col-about{
+    width: 20%;
+    margin-left: 12%;
+    margin-right: 6%;
+}
+.col-about3{
+    margin-right: 12%;
+    margin-left: 4%;
+
+}
+
+.ul-about {
+    list-style: none;
+    padding: 0;
+}
+
+.li-about{
+    text-align: justify;
+}
+
+.paws {
+    margin-left: 45%;
+}
+.ul-bla{
+    font-size: 18px;
+    list-style: none;
+    padding-left: 9px;
+}
+.span-about1{
+    padding-right: 25px;
+}
+
+.boldd{
+    font-family: Caveat;
+}
+.li-paw {
+    padding-left: 1.3em;
+    color: black;
+}

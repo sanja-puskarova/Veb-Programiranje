@@ -1,17 +1,45 @@
 .bColor{
-    background: #373B44;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    background-image: linear-gradient(to bottom, #eff2f6, #e4e9ee, #d8e0e5, #cdd8dc, #c1cfd3);
 }
 .colona{
     margin-top: 3%;
     margin-left: 5%;
     margin-right: 5%;
-}
 
+}
 .moveRight{
     margin-top: 3%;
     margin-left: 6%;
     font-family: "Comic Sans MS";
+    color: #004e64;
+}
+
+.colorChart{
+    color: #004e64;
+}
+
+.moveLittle{
+    padding-left: 40px;
+    color: #004e64;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.colorTitleGeoChart{
+    padding-top: 1%;
+    color: #004e64;
+    font-weight: bold;
+}
+.RowChartLeft{
+    padding-left: 50px;
+}
+text {
+    text-anchor:"middle";
+    x:"125.5";
+    y:"260.2";
+    font-family:"Arial";
+    font-size:12px;
+    stroke:"none";
+    stroke-width:"0";
+    fill:"#444444"
 }

@@ -11,71 +11,84 @@ export default function StatisticSection() {
 
         <div className="bColor">
             <Row>
-                <h3 className="moveRight">Statistics of our country compared to others</h3>
+                <h3 className="moveRight">Статистика за кучиња скитници во Р.Северна Македонија во споредба со други држави</h3>
             </Row>
-            <Row>
-                <Col className="colona">
+            <Row className="RowChartLeft">
+                <Col className="colona, colorChart">
+                    <br/>
+                    <br/>
                     <Chart
                         width={'500px'}
                         height={'300px'}
                         chartType="BarChart"
-                        loader={<div>Loading Chart</div>}
+                        loader={<div>Податоците се вчитуваат</div>}
                         data={[
-                            ['City', '2010 Population', '2000 Population'],
-                            ['New York City, NY', 8175000, 8008000],
-                            ['Los Angeles, CA', 3792000, 3694000],
-                            ['Chicago, IL', 2695000, 2896000],
-                            ['Houston, TX', 2099000, 1953000],
-                            ['Philadelphia, PA', 1526000, 1517000],
+                            ['Градови', 'Популација во 2018', 'Популација во 2010'],
+                            ['Скопје', 2400, 2000],
+                            ['Охрид', 1600, 1480],
+                            ['Струмица', 1300, 1220],
+                            ['Штип', 1400, 1300],
+                            ['Радовиш', 1000, 950],
                         ]}
-
                         options={{
-                            title: 'Population of Largest U.S. Cities',
+                            title: '',
                             chartArea: { width: '50%' },
                             backgroundColor: "",
+                            colors: ['#4CA1AF', '#2C3E50'],
                             hAxis: {
-                                title: 'Total Population',
+                                title: 'Тотална популација',
                                 minValue: 0,
+                                "viewWindow" : {
+                                    "min" : 0,
+                                    "max" : 3000
+                                }
                             },
                             vAxis: {
-                                title: 'City',
+                                title: 'Град',
                             },
                         }}
                         // For tests
                         rootProps={{ 'data-testid': '1' }}
                     />
+                    <br/><br/><br/>
+                    <Row className="moveLittle">Популација на кучиња скитници низ градовите во Р.Северна Македонија</Row>
+
+                    {/*<h6 style={{color:'black'}}>На графикот за приказ на популација на кучиња скитници низ градовите во Р.Северна Македонија има направено
+                     споредба на кучињата скитници низ неколку градови.Како што може да се види од графикот најмногу кучиња
+                     скитници(2400) има во главниот град, Скопје.Тоа може и да се претпостави бидејќи е најголемиот град и со најголема
+                     популација во државата.
+                     </h6>*/}
                 </Col>
                 <Col className="colona">
+
                     <Chart
                         width={'500px'}
                         height={'300px'}
-                        chartType="BubbleChart"
-                        loader={<div>Loading Chart</div>}
+                        loader={<div>Податоците се вчитуваат</div>}
+                        chartType="GeoChart"
                         data={[
-                            ['ID', 'Life Expectancy', 'Fertility Rate', 'Region', 'Population'],
-                            ['CAN', 80.66, 1.67, 'North America', 33739900],
-                            ['DEU', 79.84, 1.36, 'Europe', 81902307],
-                            ['DNK', 78.6, 1.84, 'Europe', 5523095],
-                            ['EGY', 72.73, 2.78, 'Middle East', 79716203],
-                            ['GBR', 80.05, 2, 'Europe', 61801570],
-                            ['IRN', 72.49, 1.7, 'Middle East', 73137148],
-                            ['IRQ', 68.09, 4.77, 'Middle East', 31090763],
-                            ['ISR', 81.55, 2.96, 'Middle East', 7485600],
-                            ['RUS', 68.6, 1.54, 'Europe', 141850000],
-                            ['USA', 78.09, 2.05, 'North America', 307007000],
+                            ['Country', 'Popularity'],
+                            ['Germany', 0],
+                            ['United States', 70000000],
+                            ['Brazil', 4000000],
+                            ['Canada', 500000],
+                            ['France', 7400000],
+                            ['RU', 2000000],
                         ]}
-                        options={{
-                            backgroundColor: "",
-                            title:
-                            'Correlation between life expectancy, fertility rate ' +
-                            'and population of some world countries (2010)',
 
-                            hAxis: { title: 'Life Expectancy' },
-                            vAxis: { title: 'Fertility Rate' },
-                            bubble: { textStyle: { fontSize: 11 } },
+                        options={{
+                            title:'',
+                            backgroundColor: "",
+                            colorAxis: { colors: ['#4CA1AF', '#2C3E50'] },
                         }}
+                        // Note: you will need to get a mapsApiKey for your project.
+                        // See: https://developers.google.com/chart/interactive/docs/basic_load_libs#load-settings
+                        mapsApiKey="YOUR_KEY_HERE"
                         rootProps={{ 'data-testid': '1' }}
                     />
+                    <br/><br/><br/>
+                    <Row className="moveLittle">Популација на кучиња скитници низ државите во светот</Row>
+
                 </Col>
             </Row>
             <br/>
